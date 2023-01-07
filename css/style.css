@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(57, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+body h4{
+    color: white;
+    font-size: 20px;
+}
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(25, 25, 25);
+    padding: 50px;
+    border-radius: 5px;
+}
+#survey-form label {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px;
+}
+#survey-form input {
+    height: 30px;
+}
+#dropdown{
+    width: 100%;
+    height: 35px;
+}
+.radio{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    
+}
+.radio-option{
+    display: flex;
+}
+#submit{
+    height: 40px;
+    color: white;
+    background-color: gray;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#title {
+    font-size: 50px;
+    color: white;
+    font-weight: 300;
+    margin-bottom: -20px;
+}
+#description {
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+}
+.checkbox-options{
+    display: flex;
+    
+}
